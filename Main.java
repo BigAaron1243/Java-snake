@@ -24,14 +24,14 @@ public class Main {
                     this.cancel();
                 }
             }
-        }, 50, 50);
+        }, 100, 100);
     }
 }
 
 public class SnakeDaemon extends JPanel {
     
     LinkedList<Segment> drawList;
-    Segment head = new Segment(3, 3, 200);
+    Segment head = new Segment(3, 3, 10);
     Segment dir = new Segment(1, 0, 0);
     Segment fruit = new Segment(-1, -1, 0);
     JFrame frame = new JFrame();
