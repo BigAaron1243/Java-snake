@@ -28,7 +28,7 @@ public class Main {
     }
 }
 
-public class SnakeDaemon extends JPanel {
+ class SnakeDaemon extends JPanel {
     
     LinkedList<Segment> drawList;
     Segment head = new Segment(3, 3, 10);
@@ -122,7 +122,7 @@ public class SnakeDaemon extends JPanel {
     }
 }
 
-public class Segment {
+ class Segment {
     int x, y, age;
 
     Segment(int inputx, int inputy, int inputage) {
@@ -132,7 +132,7 @@ public class Segment {
     }
 }
 
-public class KeyDaemon implements KeyListener {
+ class KeyDaemon implements KeyListener {
     SnakeDaemon jpD;
     public void keyTyped(KeyEvent e) {
 
